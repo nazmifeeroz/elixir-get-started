@@ -12,8 +12,13 @@ defmodule Cards do
       :world
 
   """
-  def hello do
-    :world
-    # "world!!!!"
+  # def hello do
+  #   :world
+  #   # "world!!!!"
+  # end
+
+  def create_deck do
+    ["Ace", "Two", "Three"]
   end
+
 end
